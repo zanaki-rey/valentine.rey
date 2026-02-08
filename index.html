@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secret Valentine 💘</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="lockScreen" class="card">
+    <h1>🔒 Enter Password</h1>
+    <p>Hint: our special date 💗</p>
+    <input type="password" id="passwordInput" placeholder="062125">
+    <br>
+    <button id="unlockBtn">Unlock 💘</button>
+    <p id="errorMsg"></p>
+  </div>
+
+  <div id="valentineScreen" class="card hidden">
+    <h1>Will you be my Valentine? 💖</h1>
+    <div class="buttons">
+      <button id="yesBtn">Yes 💘</button>
+      <button id="noBtn">No 😭</button>
+    </div>
+  </div>
+
+  <div id="letterScreen" class="card hidden">
+    <h1>💌 My Letter For You</h1>
+    <p class="letter">
+      Hi love 💗<br><br>
+      I just wanted to tell you that you make my days brighter.<br><br>
+      Happy Valentine’s Day 💘<br><br>
+      — From someone who likes you a lot 😭💖
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to bottom, #ffb6c1, #ffe4e1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card {
+  margin-top: 120px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+
+.hidden { display: none; }
+
+input {
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 5px;
+  width: 200px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 25px;
+  margin: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#unlockBtn { background: purple; color: white; }
+#yesBtn { background: hotpink; color: white; }
+#noBtn { background: lightgray; }
+
+#errorMsg { color: red; font-size: 14px; }
+.letter { font-size: 16px; line-height: 1.6; }
